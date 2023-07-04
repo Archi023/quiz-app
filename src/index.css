@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.container{
+  background-color: rgb(243, 243, 250);
+  width: 50ch;
+  height:50ch;
+  border-color: rgb(133, 133, 133);
+  border-style:solid;
+  border-width: 1px;
+  border-radius:5px;
+  box-shadow: 1px 1px gray;
+}
+
+.question-container{
+  width: 40ch;
+  height: 8ch;
+  box-shadow: 0px 15px 10px -15px #111; 
+  font-weight:bolder;
+  border-color: rgb(133, 133, 133);
+  border-style:solid;
+  border-width: 1px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.options-container{
+  width: 40ch;
+  height: 4ch;
+  font-weight:bolder;
+  border-color: rgb(133, 133, 133);
+  border-style:solid;
+  border-width: 1px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.options-container:hover{
+  background-color: rgb(227, 220, 249);
+}
+.checked{
+  background-color: rgb(193, 176, 242);
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style:solid;
+
+}
+h2{
+  background-color:rgb(193, 176, 242);
+}
